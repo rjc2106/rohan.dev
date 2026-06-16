@@ -28,13 +28,11 @@ function About() {
           </div>
           <div>
             <h3 className="font-mono text-accent text-xs mb-2">status</h3>
-            <p className="text-sm text-gray-400">Open to remote part-time & full-time roles</p>
+            <p className="text-sm text-gray-400">Open to remote opportunities for Q3/Q4 2026</p>
           </div>
           <div>
-            <h3 className="font-mono text-accent text-xs mb-2">resume</h3>
-            <a href="/Rohan_Chakraborty_Resume.pdf" target="_blank" className="inline-flex border border-white/20 px-4 py-2 text-sm font-mono hover:border-accent hover:text-accent hover:shadow-[0_0_10px_rgba(190,242,100,0.1)] transition-all">
-  download.pdf ↓
-</a>
+            <h3 className="font-mono text-accent text-xs mb-2">email</h3>
+            <a href="mailto:contact.rjc21@gmail.com" className="text-sm text-accent hover:underline">contact.rjc21@gmail.com</a>
           </div>
         </div>
       </section>
