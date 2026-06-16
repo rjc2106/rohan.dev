@@ -28,11 +28,11 @@ function About() {
           </div>
           <div>
             <h3 className="font-mono text-accent text-xs mb-2">status</h3>
-            <p className="text-sm text-gray-400">Open to remote opportunities for Q3/Q4 2026</p>
+            <p className="text-sm">Open to remote opportunities for Q3/Q4 2026</p>
           </div>
           <div>
             <h3 className="font-mono text-accent text-xs mb-2">email</h3>
-            <a href="mailto:contact.rjc21@gmail.com" className="text-sm text-accent hover:underline">contact.rjc21@gmail.com</a>
+            <p className="text-sm">contact.rjc21@gmail.com</p>
           </div>
         </div>
       </section>
