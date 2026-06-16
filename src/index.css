@@ -2,20 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --bg-color: oklch(0.14 0 0);
-    --text-color: oklch(0.9 0 0);
-    --accent-color: oklch(0.85 0.18 130);
-  }
+:root {
+  --bg-color: #0a0a0a;
+  --accent-color: #bef264; /* Terminal green */
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+  --border-color: rgba(255, 255, 255, 0.1);
+}
 
-  body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    font-family: 'Inter', sans-serif;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-    background-size: 40px 40px;
-    margin: 0;
-  }
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  /* The subtle terminal grid background */
+  background-image: 
+    linear-gradient(to right, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 64px 64px;
+  background-attachment: fixed;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+.bg-accent {
+  background-color: var(--accent-color);
+}
+
+.border-accent {
+  border-color: var(--accent-color);
 }
