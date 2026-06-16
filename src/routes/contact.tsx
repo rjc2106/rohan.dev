@@ -50,9 +50,9 @@ function Contact() {
         <span className="font-mono text-accent text-xs block mb-4">~/resume</span>
         <h3 className="text-2xl font-bold mb-2">Prefer the short version?</h3>
         <p className="text-gray-400 mb-6">Grab my one-page professional resume.</p>
-        <a href="/resume.pdf" target="_blank" className="inline-flex bg-accent text-black px-6 py-3 font-bold font-mono hover:bg-white transition-colors shadow-[0_0_15px_rgba(190,242,100,0.2)]">
-          download resume ↓
-        </a>
+      <a href="/Rohan_Chakraborty_Resume.pdf" target="_blank" className="inline-flex bg-accent text-black px-6 py-3 font-bold font-mono hover:bg-white transition-colors shadow-[0_0_15px_rgba(190,242,100,0.2)]">
+  download resume ↓
+</a>
       </div>
     </div>
   )

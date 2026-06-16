@@ -32,9 +32,9 @@ function About() {
           </div>
           <div>
             <h3 className="font-mono text-accent text-xs mb-2">resume</h3>
-            <a href="/resume.pdf" target="_blank" className="inline-flex border border-white/20 px-4 py-2 text-sm font-mono hover:border-accent hover:text-accent hover:shadow-[0_0_10px_rgba(190,242,100,0.1)] transition-all">
-              download.pdf ↓
-            </a>
+            <a href="/Rohan_Chakraborty_Resume.pdf" target="_blank" className="inline-flex border border-white/20 px-4 py-2 text-sm font-mono hover:border-accent hover:text-accent hover:shadow-[0_0_10px_rgba(190,242,100,0.1)] transition-all">
+  download.pdf ↓
+</a>
           </div>
         </div>
       </section>
