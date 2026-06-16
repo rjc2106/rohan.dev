@@ -15,7 +15,7 @@ function About() {
           <span className="font-mono text-accent text-sm">~/about</span>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight pb-4">About</h1>
           <div className="space-y-4 text-gray-300 leading-relaxed">
-            <p>I am an AI & Backend Engineer specializing in LLM-powered systems and resilient backend architecture.</p>
+            <p>I'm a Computer Science & Engineering student (2022-2026) at Swami Vivekananda University, specializing in AI and Machine Learning.</p>
             <p>My focus is on bridging the gap between experimental AI models and production-ready software. I architect scalable RAG pipelines, develop agentic workflows using LangChain, and build robust, asynchronous APIs using FastAPI.</p>
             <p>I am currently open to remote engagements where I can help teams ship high-performance AI features and resilient backend services.</p>
           </div>
