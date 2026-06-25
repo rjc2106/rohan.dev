@@ -16,7 +16,7 @@ function About() {
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight pb-4">About</h1>
           <div className="space-y-4 text-gray-300 leading-relaxed">
             <p>I'm a Computer Science & Engineering student (2022-2026) at Swami Vivekananda University, specializing in AI and Machine Learning.</p>
-            <p>My focus is on bridging the gap between experimental AI models and production-ready software. I architect scalable RAG pipelines, develop agentic workflows using LangChain, and build robust, asynchronous APIs using FastAPI.</p>
+            <p>My focus is on bridging the gap between experimental AI models and production-ready software. I architect scalable RAG pipelines, develop agentic workflows using LangChain, and build resilient backend systems with FastAPI.</p>
             <p>I am currently open to remote engagements where I can help teams ship high-performance AI features and resilient backend services.</p>
           </div>
         </div>
@@ -45,41 +45,41 @@ function About() {
           <div className="bg-[#0a0a0a] p-8 space-y-4">
             <h3 className="font-mono text-accent text-xs">Languages</h3>
             <div className="flex flex-wrap gap-2">
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">Python</span>
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">TypeScript</span>
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">SQL</span>
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">Java</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">Python</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">TypeScript</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">SQL</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">Java</span>
             </div>
           </div>
           
           <div className="bg-[#0a0a0a] p-8 space-y-4">
             <h3 className="font-mono text-accent text-xs">AI & Data</h3>
             <div className="flex flex-wrap gap-2">
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">LLM Integration</span>
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">RAG</span>
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">LangChain</span>
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">Vector DBs</span>
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">NumPy</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">LLM Integration</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">RAG</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">LangChain</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">Vector DBs</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">NumPy</span>
             </div>
           </div>
 
           <div className="bg-[#0a0a0a] p-8 space-y-4">
             <h3 className="font-mono text-accent text-xs">Backend & Architecture</h3>
             <div className="flex flex-wrap gap-2">
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">FastAPI</span>
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">REST APIs</span>
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">Microservices</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">FastAPI</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">REST APIs</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">Microservices</span>
             </div>
           </div>
 
           <div className="bg-[#0a0a0a] p-8 space-y-4">
             <h3 className="font-mono text-accent text-xs">Infrastructure & Frontend</h3>
             <div className="flex flex-wrap gap-2">
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">Docker</span>
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">Linux</span>
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">uv</span>
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">React</span>
-              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300">Tailwind CSS</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">Docker</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">Linux</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">uv</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">React</span>
+              <span className="border border-white/10 px-3 py-1 text-sm font-mono text-gray-300 transition-colors hover:border-accent/30">Tailwind CSS</span>
             </div>
           </div>
         </div>

@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client'
 import { RouterProvider, createRouter } from '@tanstack/react-router'
 import './index.css'
 
-// Import our routes
+// Import root route
 import { Route as rootRoute } from './routes/__root'
-import { Route as indexRoute } from './routes/index'
-import { Route as workRoute } from './routes/work'
-import { Route as aboutRoute } from './routes/about'
-import { Route as contactRoute } from './routes/contact'
+
+// Lazy load route components for better code splitting
+const indexRoute = (await import('./routes/index')).Route
+const workRoute = (await import('./routes/work')).Route
+const aboutRoute = (await import('./routes/about')).Route
+const contactRoute = (await import('./routes/contact')).Route
 
 // Build the route tree
 const routeTree = rootRoute.addChildren([

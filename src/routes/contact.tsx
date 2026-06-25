@@ -7,43 +7,36 @@ export const Route = createRoute({
   component: Contact,
 })
 
-
 function Contact() {
   return (
-    <div className="max-w-3xl space-y-16 animate-in fade-in duration-700">
-      <div className="space-y-6">
+    <div className="space-y-12 animate-in fade-in duration-700 max-w-2xl">
+      <div className="space-y-4">
         <span className="font-mono text-accent text-sm">~/contact</span>
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-          Let's <span className="text-accent">talk.</span>
-        </h1>
-        <p className="text-xl text-gray-300">Open to remote part-time & full-time roles.</p>
-        <p className="text-gray-400 leading-relaxed">Drop a message about your project, backend scaling needs, or anything you'd like to build together. I usually respond within a day.</p>
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Get in touch</h1>
+        <p className="text-gray-400">Let's connect and explore how I can help with your next project.</p>
       </div>
 
-      <div className="flex flex-col border-t border-white/10">
-        <a href="mailto:contact.rjc21@gmail.com" className="group flex flex-col sm:flex-row justify-between sm:items-center py-8 border-b border-white/10 hover:border-accent transition-all hover:pl-4">
-          <span className="font-mono text-accent text-xs mb-2 sm:mb-0">email</span>
-          <div className="flex items-center gap-4">
-            <span className="font-mono text-lg group-hover:text-white transition-colors">contact.rjc21@gmail.com</span>
-            <span className="text-gray-600 group-hover:text-accent transition-colors">→</span>
-          </div>
-        </a>
-        
-        <a href="https://github.com/rjc2106" target="_blank" rel="noreferrer" className="group flex flex-col sm:flex-row justify-between sm:items-center py-8 border-b border-white/10 hover:border-accent transition-all hover:pl-4">
-          <span className="font-mono text-accent text-xs mb-2 sm:mb-0">github</span>
-          <div className="flex items-center gap-4">
-            <span className="font-mono text-lg group-hover:text-white transition-colors">github.com/rjc2106</span>
-            <span className="text-gray-600 group-hover:text-accent transition-colors">→</span>
-          </div>
-        </a>
+      <div className="space-y-6">
+        <div className="border border-white/10 bg-[#0d0d0d] p-8 hover:border-accent/30 transition-colors">
+          <h3 className="font-mono text-accent text-sm mb-2">Email</h3>
+          <a href="mailto:contact.rjc21@gmail.com" className="text-lg hover:text-accent transition-colors">
+            contact.rjc21@gmail.com
+          </a>
+        </div>
 
-        <a href="https://linkedin.com/in/rohan-chakraborty-246920313" target="_blank" rel="noreferrer" className="group flex flex-col sm:flex-row justify-between sm:items-center py-8 border-b border-white/10 hover:border-accent transition-all hover:pl-4">
-          <span className="font-mono text-accent text-xs mb-2 sm:mb-0">linkedin</span>
-          <div className="flex items-center gap-4">
-            <span className="font-mono text-lg group-hover:text-white transition-colors">/in/rohan-chakraborty</span>
-            <span className="text-gray-600 group-hover:text-accent transition-colors">→</span>
-          </div>
-        </a>
+        <div className="border border-white/10 bg-[#0d0d0d] p-8 hover:border-accent/30 transition-colors">
+          <h3 className="font-mono text-accent text-sm mb-2">GitHub</h3>
+          <a href="https://github.com/rjc2106" target="_blank" rel="noreferrer" className="text-lg hover:text-accent transition-colors">
+            github.com/rjc2106
+          </a>
+        </div>
+
+        <div className="border border-white/10 bg-[#0d0d0d] p-8 hover:border-accent/30 transition-colors">
+          <h3 className="font-mono text-accent text-sm mb-2">LinkedIn</h3>
+          <a href="https://linkedin.com/in/rohan-chakraborty-246920313" target="_blank" rel="noreferrer" className="text-lg hover:text-accent transition-colors">
+            linkedin.com/in/rohan-chakraborty-246920313
+          </a>
+        </div>
       </div>
     </div>
   )

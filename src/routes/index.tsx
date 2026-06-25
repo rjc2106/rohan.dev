@@ -26,7 +26,7 @@ function Home() {
             AI & Backend Engineer — specializing in LLM-powered systems & resilient backend architecture.
           </p>
           <p className="text-sm text-gray-400 leading-relaxed">
-            Based in Kolkata, India. I bridge the gap between experimental AI models and production-ready software solutions. Currently building RAG pipelines, agentic workflows, and asynchronous APIs.
+            Based in Kolkata, India. I bridge the gap between experimental AI models and production-ready software solutions. Currently building RAG pipelines, agentic workflows, and asynchronous systems that scale.
           </p>
         </div>
 

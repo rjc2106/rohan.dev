@@ -1,15 +1,20 @@
-export default function Navbar() {
+import { Link } from '@tanstack/react-router'
+import React from 'react'
+
+const NavbarComponent = () => {
   return (
-    <nav className="flex items-center justify-between py-8">
-      <a href="/" className="font-mono text-[var(--accent-color)] font-bold text-lg tracking-tight">
+    <nav className="flex items-center justify-between py-10 border-b border-white/5">
+      <Link to="/" className="font-mono text-accent font-bold text-sm tracking-tight">
         ~/rohan.dev
-      </a>
-      <div className="flex gap-6 font-mono text-sm opacity-80">
-        <a href="/" className="hover:text-[var(--accent-color)] transition-colors">home</a>
-        <a href="/work" className="hover:text-[var(--accent-color)] transition-colors">work</a>
-        <a href="/about" className="hover:text-[var(--accent-color)] transition-colors">about</a>
-        <a href="/contact" className="hover:text-[var(--accent-color)] transition-colors">contact</a>
+      </Link>
+      <div className="flex gap-6 font-mono text-xs text-muted">
+        <Link to="/" className="hover:text-accent transition-colors [&.active]:text-accent">home</Link>
+        <Link to="/work" className="hover:text-accent transition-colors [&.active]:text-accent">work</Link>
+        <Link to="/about" className="hover:text-accent transition-colors [&.active]:text-accent">about</Link>
+        <Link to="/contact" className="hover:text-accent transition-colors [&.active]:text-accent">contact</Link>
       </div>
     </nav>
-  );
+  )
 }
+
+export const Navbar = React.memo(NavbarComponent)
